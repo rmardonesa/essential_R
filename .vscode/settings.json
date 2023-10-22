@@ -1,0 +1,18 @@
+{
+    "r.bracketedPaste": true,
+    "r.lsp.diagnostics": false,
+    "r.lsp.debug": false,
+    "r.lsp.path": "R",
+    "r.lsp.rpath": null,
+    "r.lsp.setup": {
+        "languageserver": {
+            "args": ["--no-save", "--no-restore", "--quiet"],
+            "command": "R",
+            "filetypes": ["r", "rmd"],
+            "languages": ["r"],
+            "initializationOptions": {
+                "packages": ["lintr"]
+            }
+        }
+    }
+}
